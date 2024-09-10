@@ -10,14 +10,14 @@ The `timeseriesdatasets` package provides a **collection of time series datasets
 
 ## Getting Started
 
-To use the datasets from the `timeseriesdatasets` package, you first need to install and load the package. You can install it from CRAN or from a local source if you're developing it.
+To use the datasets from the `timeSeriesDataSets` package, you first need to install and load the package. You can install it from CRAN or from a local source if you're developing it.
 
 ```{r}
 # Install the package from CRAN
 # install.packages("timeseriesdatasets")
 
 # Load the package
-library(timeseriesdatasets)
+library(timeSeriesDataSets)
 
 ```
 
