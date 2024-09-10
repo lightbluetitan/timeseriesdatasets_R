@@ -15,22 +15,22 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
-#' timeseriesdatasets: Collection of Time Series Data Sets
+#' timeSeriesDataSets: Time Series Data Sets
 #'
 #' \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 #'
 #' A comprehensive collection of time series data sets for use in R.
 #'
-#' @name timeseriesdatasets
-#' @aliases timeseriesdatasets-package
-#' @title timeseriesdatasets: Collection of Time Series Data Sets
+#' @name timeSeriesDataSets
+#' @aliases timeSeriesDataSets-package
+#' @title timeSeriesDataSets: Time Series Data Sets
 #' @description {
 #' This package provides a wide variety of time series data sets for testing, learning, and research purposes.
 #' }
 #' @seealso {
 #' Useful links:
 #' \itemize{
-#'   \item \url{https://github.com/lightbluetitan/timeseriesdatasets_R}
+#'   \item \url{https://github.com/lightbluetitan/timeSeriesDataSets_R}
 #' }
 #' }
 #' @author {

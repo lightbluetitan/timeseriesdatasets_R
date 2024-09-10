@@ -16,7 +16,7 @@
 
 # data set elecdemand_msts
 
-# library(timeseriesdatasets) activate package timeseriesdatasets
+# library(timeSeriesDataSets) activate package timeSeriesDataSets
 
 library(testthat)
 

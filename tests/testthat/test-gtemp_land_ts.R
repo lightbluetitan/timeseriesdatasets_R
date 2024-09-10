@@ -18,7 +18,7 @@
 
 library(testthat)
 
-# library(timeseriesdatasets) activate the timeseriesdatasets package
+# library(timeSeriesDataSets) activate the timeSeriesDataSets package
 
 # Test that the object 'gtemp_land_ts' has the correct class
 

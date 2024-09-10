@@ -16,7 +16,7 @@
 
 # data set economics_df_ts
 
-# library(timeseriesdatasets) activate package timeseriesdatasets
+# library(timeSeriesDataSets) activate package timeSeriesDataSets
 
 library(testthat)
 

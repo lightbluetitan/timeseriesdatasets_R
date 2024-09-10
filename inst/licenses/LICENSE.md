@@ -1,6 +1,6 @@
-# License for `timeseriesdatasets`
+# License for `timeSeriesDataSets`
 
-This package, `timeseriesdatasets`, is licensed under the **GNU General Public License Version 3 (GPL-3)**.
+This package, `timeSeriesDataSets`, is licensed under the **GNU General Public License Version 3 (GPL-3)**.
 
 You are free to:
 
@@ -13,7 +13,7 @@ The full text of the GNU General Public License Version 3 (GPL-3) can be found [
 
 ## Note
 
-The `timeseriesdatasets` package, including all its data files (.rda) and code files, is licensed under the GNU General Public License, version 3 or later (GPL-3).
+The `timeSeriesDataSets` package, including all its data files (.rda) and code files, is licensed under the GNU General Public License, version 3 or later (GPL-3).
 
 ## Copyright Notice
 

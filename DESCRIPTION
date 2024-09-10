@@ -1,10 +1,9 @@
-Package: timeseriesdatasets
+Package: timeSeriesDataSets
 Type: Package
-Title: Collection of Time Series Data Sets
+Title: Time Series Data Sets
 Version: 0.1.0
-Author: Renzo Caceres Rossi <arenzocaceresrossi@gmail.com>
 Maintainer: Renzo Caceres Rossi <arenzocaceresrossi@gmail.com>
-Description: The timeseriesdatasets package provides a diverse collection of time series datasets
+Description: The timeSeriesDataSets package provides a diverse collection of time series datasets
     spanning various fields such as economics, finance, energy, healthcare, and more.
     This package is designed to support time series analysis in R by offering datasets from
     multiple disciplines, making it a valuable resource for researchers and analysts.
@@ -20,3 +19,7 @@ Suggests:
 Config/testthat/edition: 3
 RoxygenNote: 7.3.2
 VignetteBuilder: knitr
+Authors@R: person(given = c("Renzo", "Caceres"),
+                  family = "Rossi",
+                  role = c("aut", "cre"),
+                  email = "arenzocaceresrossi@gmail.com")

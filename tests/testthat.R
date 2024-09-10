@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(timeseriesdatasets)
+library(timeSeriesDataSets)
 
-test_check("timeseriesdatasets")
+test_check("timeSeriesDataSets")

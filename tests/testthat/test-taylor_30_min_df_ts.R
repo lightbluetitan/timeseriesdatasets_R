@@ -16,7 +16,7 @@
 
 # data set taylor_30_min_df_ts
 
-# library(timeseriesdatasets) activate package timeseriesdatasets
+# library(timeSeriesDataSets) activate package timeSeriesDataSets
 
 library(testthat)
 

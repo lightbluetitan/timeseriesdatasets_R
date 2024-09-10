@@ -19,7 +19,7 @@
 library(testthat)
 
 
-# library(timeseriesdatasets) activate the timeseriesdatasets package
+# library(timeSeriesDataSets) activate the timeSeriesDataSets package
 
 # Test that the object 'USgas_ts' has the correct class
 

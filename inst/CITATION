@@ -1,6 +1,6 @@
 bibentry(
   bibtype  = "Manual",
-  title    = "timeseriesdatasets: Collection of Time Series Data Sets for R",
+  title    = "timeSeriesDataSets: Time Series Data Sets for R",
   author   = "Renzo Caceres Rossi",
   year     = 2024,
   note     = "R package version 0.1.0",

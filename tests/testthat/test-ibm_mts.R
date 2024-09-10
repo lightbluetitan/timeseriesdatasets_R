@@ -16,7 +16,7 @@
 
 # data set ibm_mts
 
-# library(timeseriesdatasets) activate package timeseriesdatasets
+# library(timeSeriesDataSets) activate package timeSeriesDataSets
 
 library(testthat)
 
