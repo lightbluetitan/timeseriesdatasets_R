@@ -1,6 +1,8 @@
 ## Introduction
 
-<center>![Logo]([URL_DEL_LOGO](https://github.com/lightbluetitan/timeseriesdatasets_R/blob/main/man/figures/logo.png))</center>
+<p align="center">
+  <img src="https://github.com/lightbluetitan/timeseriesdatasets_R/raw/main/man/figures/logo.png" alt="Logo">
+</p>
 
 
 The `timeseriesdatasets` package provides a **collection of time series datasets for R**, with suffixes (`_ts`, `_mts`, `_tbl_ts`) added based on the object type and class to clearly indicate their time series nature. This helps users easily identify time series datasets by their names. The datasets are sourced from various R packages, with modified names to reflect their time series structure. In this vignette, we will explore these datasets and demonstrate how to use them in your analyses.
