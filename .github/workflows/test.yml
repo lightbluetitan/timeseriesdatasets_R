@@ -1,3 +1,7 @@
+name: R-CMD-check
+
+on: [push, pull_request]
+
 jobs:
   R-CMD-check:
     runs-on: ${{ matrix.config.os }}
@@ -15,11 +19,12 @@ jobs:
         with:
           use-public-rspm: true
 
-      - name: Install R package dependencies
+      - name: Install dependencies
         run: |
           Rscript -e 'install.packages("remotes")'
           Rscript -e 'remotes::install_deps(dependencies = TRUE)'
-
+      
       - name: Check
-        run: R.exe CMD check .
-        shell: pwsh
+        run: |
+          R CMD build .
+          R CMD check --as-cran timeseriesdatasets_*.tar.gz
