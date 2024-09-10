@@ -1,38 +1,23 @@
-name: R CMD Check
+name: R-CMD-check
 
 on:
   push:
-    branches:
+    branches: 
       - main
   pull_request:
     branches:
       - main
 
 jobs:
-  check:
-    name: R CMD Check
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest, macos-latest, windows-latest]
-
+  R-CMD-check:
+    runs-on: ubuntu-latest
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
-
-    - name: Setup R
+    - uses: actions/checkout@v2
+    - name: Set up R
       uses: r-lib/actions/setup-r@v2
-      with:
-        r-version: '4.4' # Specify the R version you want to use
-
     - name: Install dependencies
       run: |
-        install.packages(c('devtools', 'roxygen2', 'testthat'), dependencies = TRUE)
-
-    - name: Install package
-      run: |
-        devtools::install()
-
-    - name: Run R CMD check
-      run: |
-        devtools::check()
+        install.packages('remotes')
+        remotes::install_deps(dependencies = TRUE)
+    - name: Check
+      run: R CMD check .
