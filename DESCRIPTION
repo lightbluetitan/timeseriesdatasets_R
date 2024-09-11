@@ -3,11 +3,11 @@ Type: Package
 Title: Time Series Data Sets
 Version: 0.1.0
 Maintainer: Renzo Caceres Rossi <arenzocaceresrossi@gmail.com>
-Description: The timeSeriesDataSets package provides a diverse collection of time series datasets
+Description: Provides a diverse collection of time series datasets
     spanning various fields such as economics, finance, energy, healthcare, and more.
-    This package is designed to support time series analysis in R by offering datasets from
+    Designed to support time series analysis in R by offering datasets from
     multiple disciplines, making it a valuable resource for researchers and analysts.
-License: GPL-3 + file LICENSE
+License: GPL-3 
 URL: https://github.com/lightbluetitan/timeseriesdatasets_R
 Encoding: UTF-8
 LazyData: true
