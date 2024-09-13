@@ -61,7 +61,7 @@ head(AirPassengers_ts)
 
 You can use these time series datasets for various time series analyses and visualizations. For example, you can plot the data to visualize trends over time.
 
-```{r ggplot2}
+```{r ggplot2, fig.alt="Time series plot of International Airline Passengers from 1949 to 1960"}
 
 # Convert AirPassengers to a data frame for use with ggplot2
 air_df <- data.frame(
@@ -82,7 +82,7 @@ ggplot(air_df, aes(x = Month, y = Passengers)) +
 
 We can extract the trend and seasonality components from the decomposed time series.
 
-```{r trend_airpassengers}
+```{r trend_airpassengers, fig.alt="Trend and Seasonality in AirPassengers time series"}
 
 # Decompose the time series
 decomposed_ap <- decompose(AirPassengers_ts)
